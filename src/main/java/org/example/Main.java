@@ -19,8 +19,8 @@ public class Main {
             // Connection DB local db choncito feliz, ahora chonchito triste
             Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Horbath\\Desktop\\PruebJuniorJAVA\\src\\main\\resources\\db\\dbtemplate.db");
             // Lee el archive JSON
-            JsonParser jsonParser = new JsonParser();
-            JsonElement rootElement = jsonParser.parse(new FileReader("C:\\Users\\Horbath\\Desktop\\PruebJuniorJAVA\\src\\main\\resources\\ExampleJson.json"));
+            //JsonParser = new JsonParser();
+            JsonElement rootElement = JsonParser.parseReader(new FileReader("C:\\Users\\Horbath\\Desktop\\PruebJuniorJAVA\\src\\main\\resources\\ExampleJson.json"));
 
             if (rootElement.isJsonArray()) {
                 JsonArray jsonArray = rootElement.getAsJsonArray();
@@ -48,14 +48,14 @@ public class Main {
                     preparedStatement.setString(6, city);
                     preparedStatement.setString(7, state);
                     preparedStatement.executeUpdate();
-                    /*System.out.println("ID: " + id);
+                    System.out.println("ID: " + id);
                     System.out.println("Age: " + age);
                     System.out.println("Name: " + name);
                     System.out.println("Phone: " + phone);
                     System.out.println("Address: " + address);
                     System.out.println("City: " + city);
                     System.out.println("State: " + state);
-                    System.out.println();*/
+                    System.out.println();
                 }
             } else {
                 System.out.println("El archivo JSON no contiene una lista de objetos.");
