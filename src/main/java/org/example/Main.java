@@ -16,7 +16,7 @@ import java.sql.SQLException;
 public class Main {
     public static void main(String[] args) throws RuntimeException {
         try {
-            // Connection DB local db choncito feliz
+            // Connection DB local db choncito feliz, ahora chonchito triste
             Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Horbath\\Desktop\\PruebJuniorJAVA\\src\\main\\resources\\db\\dbtemplate.db");
             // Lee el archive JSON
             JsonParser jsonParser = new JsonParser();
