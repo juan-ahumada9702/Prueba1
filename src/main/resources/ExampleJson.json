@@ -1,0 +1,38 @@
+[
+  {
+    "id": "64de3db796ca78d9ed5ca8e2",
+    "age": 20,
+    "name": "Aline Jenkins",
+    "phone": "+1 (891) 531-3276",
+    "address": "188 Everett Avenue",
+    "city": " Kennedyville",
+    "state": "Alaska"
+  },
+  {
+    "id": "64de3db70b4e0a1716e2b340",
+    "age": 27,
+    "name": "Lydia Cortez",
+    "phone": "+1 (879) 418-3741",
+    "address": "458 Folsom Place",
+    "city": " Chilton",
+    "state": "Washington"
+  },
+  {
+    "id": "64de3db76df768f48d1ad52b",
+    "age": 40,
+    "name": "Randall Page",
+    "phone": "+1 (958) 581-2286",
+    "address": "474 Langham Street",
+    "city": " Gambrills",
+    "state": "New York"
+  },
+  {
+    "id": "64de3db7533ccf7c1ba5d6ef",
+    "age": 38,
+    "name": "Veronica Kidd",
+    "phone": "+1 (818) 486-3187",
+    "address": "657 Woodbine Street",
+    "city": " Torboy",
+    "state": "Oklahoma"
+  }
+]
