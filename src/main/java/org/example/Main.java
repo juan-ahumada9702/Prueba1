@@ -18,10 +18,10 @@ public class Main {
         try {
             // Connection DB local db pig happy, now pig sad
             // Modification in main branch
-            Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Horbath\\Desktop\\PruebJuniorJAVA\\src\\main\\resources\\db\\dbtemplate.db");
+            Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Horbath\\Desktop\\Ejericicios\\PruebJuniorJAVA\\src\\main\\resources\\db\\dbtemplate.db");
             // Lee el archive JSON
             //JsonParser = new JsonParser();
-            JsonElement rootElement = JsonParser.parseReader(new FileReader("C:\\Users\\Horbath\\Desktop\\PruebJuniorJAVA\\src\\main\\resources\\ExampleJson.json"));
+            JsonElement rootElement = JsonParser.parseReader(new FileReader("C:\\Users\\Horbath\\Desktop\\Ejericicios\\PruebJuniorJAVA\\src\\main\\resources\\ExampleJson.json"));
 
             if (rootElement.isJsonArray()) {
                 JsonArray jsonArray = rootElement.getAsJsonArray();
